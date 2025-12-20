@@ -16,3 +16,25 @@ print(list1[0])
 # It means we can store multiple  data types of value in a single List.
 student=['karan',34 ,48.2 , 'Bangladesh']
 print(student)
+# ['karan', 34, 48.2, 'Bangladesh']
+
+# 3. List similar to string.But there are a couple of differences.
+
+# 1.string-immutable [ immutable means it can’t change.]
+# 2.List-mutable [mutable means it can change.]
+
+# str='Hello'
+# str[0]='y'
+# print(str)
+# see here we can't change the index [0] value. 
+# if we try, it's shows like that -"  'str' object does not support item assignment.
+# Because string is immutable.
+
+str1=['karan',34 ,48.2 , 'Bangladesh']
+print(str1)
+# ['karan', 34, 48.2, 'Bangladesh']
+str1[0]='Raju'
+print(str1)
+# ['Raju', 34, 48.2, 'Bangladesh']
+# seen we changed the index number 0 value. In the list we can do this.
+# Because List is mutable.
