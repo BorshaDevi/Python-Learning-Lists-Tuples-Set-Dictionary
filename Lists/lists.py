@@ -59,3 +59,23 @@
 # List method
 
 # append(): It added value to the end of the list.
+list=[1,2,3,4,5]
+list.append(6)
+print(list)
+# [1, 2, 3, 4, 5, 6]    There is an add element that is called muted .
+
+# sort():sort means arranging values in the correct order.
+# 1. Ascending.[ascending means low to high / small to big]
+# 2.Descending.[descending means high to low / big to small]
+list=[56,3,7,27,19,5]
+# this is Ascending
+list.sort()
+print(list)
+# [3, 5, 7, 19, 27, 56]
+
+# this is desending
+list.sort(reverse=True)
+print(list)
+# [56, 27, 19, 7, 5, 3]
+
+# print(list.sort()) can not write like this.it print none. 
