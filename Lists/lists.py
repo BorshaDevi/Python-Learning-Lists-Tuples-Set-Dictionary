@@ -81,6 +81,11 @@ list.sort(reverse=True)
 print(list)
 # [56, 27, 19, 7, 5, 3]
 
+letter=['a','d','c','b','e','g','f']
+letter.sort()
+print(letter)
+# ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+
 product=["banana","litice","apple","mango"]
 product.sort()
 print(product)
@@ -91,5 +96,22 @@ print(product)
 
 # print(list.sort()) can not write like this.it print none. 
 
+# reverse():   It reverses the order of the list.
 
+list1=[4,3,2,1,7,6,5]
+list1.reverse()
+print(list1)
+# [5, 6, 7, 1, 2, 3, 4]
+list2=['a','d','c','b','e','g','f']
+list2.reverse()
+print(list2)
+# ['a','d','c','b','e','g','f']
 
+# insert():    In this function , we can add the value in the middle of the list.
+# It’s same as the append function. But in the append function,we added value at the end of the list. 
+# Str: val.insert(index,element)
+# First declare which  index add and then in the index what is added. 
+list=[4,3,2,1,7,6,5]
+list.insert(1,8)
+print(list)
+# [4, 8, 3, 2, 1, 7, 6, 5]
