@@ -4,3 +4,7 @@ print(list)
 
 list.sort(reverse=True)
 print(list)
+
+list.append(8)
+list.sort()
+print(list)
