@@ -13,7 +13,20 @@
 # computer_product.sort()
 # print(computer_product)
 
-list3=["banana",'apple','banana']
-list3.remove('banana')
-print(list3)
-# ['apple', 'banana']
+# list3=["banana",'apple','banana']
+# list3.remove('banana')
+# print(list3)
+# # ['apple', 'banana']
+
+tuple=(1,2,3,4,5,6,7)
+print(tuple[3:5])
+# (4, 5)
+
+print(tuple[:len(tuple)])
+# (1, 2, 3, 4, 5, 6, 7)
+
+print(tuple[4:])
+# (5, 6, 7)
+
+print(tuple[-5:-1])
+# (3, 4, 5, 6)
