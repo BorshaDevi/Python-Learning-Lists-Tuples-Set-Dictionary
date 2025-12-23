@@ -45,3 +45,9 @@ print(tup5.index(1))
 # 0
 print(tup5.index(5))
 # 5
+
+# count():This counts total occurrences.
+
+tup6=(1,2,1,3,4,5,2,6,5,2,9,7,2)
+print(tup6.count(2))
+# 4
