@@ -165,6 +165,12 @@ student={
 }
 print(student.items())
 # dict_items([('name', 'Lucy'), ('subjects', {'phy': 45, 'math': 90, 'bangla': 80})])
+print(list(student.items()))
+# [('name', 'Lucy'), ('subjects', {'phy': 45, 'math': 90, 'bangla': 80})]
+
+pairs=list(student.items())
+print(pairs[0])
+# ('name', 'Lucy')
 
 # get(“ key ”):Returns the key according to value.
     
