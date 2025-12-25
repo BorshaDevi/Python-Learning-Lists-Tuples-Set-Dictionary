@@ -64,38 +64,77 @@
 # # {'name': 'David Lucy', 'age': 16}
 
 
-# Nested dictionary:
+# # Nested dictionary:
+# student={
+#     "name":'Raju Kumar',
+#     "subjects":{
+#         "physics":43,
+#         'math':90,
+#         'Bangla':80,
+#     },
+#     "result":{
+#            "first year":{
+#                "pass":True,
+#                'marks':3.00,
+#                "subjects":['chem','english','history'],
+#            },
+#            "second year":{
+#                "pass":True,
+#                'marks':3.25,
+#                "subjects":['phy','english','geo'],
+#            },
+#            "third year":{
+#                "pass":True,
+#                'marks':3.50,
+#                "subjects":['math','bangla','social science'],
+#            },
+#     },
+# }
+# # print(student)
+# print(student['name'])
+# # Raju Kumar
+# print(student['subjects']['math'])
+# # 90
+# print(student['result']['third year']['subjects'])
+# # ['math', 'bangla', 'social science']
+# print(student['result']['first year']['subjects'][1])
+# # english
+
+
+# Method:
+
+
+# keys():Returns all keys.
 student={
-    "name":'Raju Kumar',
+    "name":'Lucy',
     "subjects":{
-        "physics":43,
-        'math':90,
-        'Bangla':80,
-    },
-    "result":{
-           "first year":{
-               "pass":True,
-               'marks':3.00,
-               "subjects":['chem','english','history'],
-           },
-           "second year":{
-               "pass":True,
-               'marks':3.25,
-               "subjects":['phy','english','geo'],
-           },
-           "third year":{
-               "pass":True,
-               'marks':3.50,
-               "subjects":['math','bangla','social science'],
-           },
-    },
+        "phy":45,
+        "math":90,
+         'bangla':80,
+    }
 }
-# print(student)
-print(student['name'])
-# Raju Kumar
-print(student['subjects']['math'])
-# 90
-print(student['result']['third year']['subjects'])
-# ['math', 'bangla', 'social science']
-print(student['result']['first year']['subjects'][1])
-# english
+print(student.keys())
+# dict_keys(['name', 'subjects'])
+
+#  If we need to list the type of these dictionary keys then we do this.
+print(list(student.keys()))
+# ['name', 'subjects']
+
+#  If we need to know the dictionary length.
+print(len(student))
+# 2
+# or
+print(len(list(student.keys())))
+# 2
+
+
+
+
+
+# values():Returns all values.
+
+# items(): Returns all (key,value) pairs as tuples.
+
+# get(“ key ”):Returns the key according to value.
+    
+# update(newDict):Inserts the specified items to the dictionary.
