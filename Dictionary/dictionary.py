@@ -154,7 +154,25 @@
 # # [45, 90, 80]
 
 
-# items(): Returns all (key,value) pairs as tuples.
+# # items(): Returns all (key,value) pairs as tuples.
+# student={
+#     "name":'Lucy',
+#     "subjects":{
+#         "phy":45,
+#         "math":90,
+#          'bangla':80,
+#     }
+# }
+# print(student.items())
+# # dict_items([('name', 'Lucy'), ('subjects', {'phy': 45, 'math': 90, 'bangla': 80})])
+# print(list(student.items()))
+# # [('name', 'Lucy'), ('subjects', {'phy': 45, 'math': 90, 'bangla': 80})]
+
+# pairs=list(student.items())
+# print(pairs[0])
+# # ('name', 'Lucy')
+
+# get(“ key ”):Returns the key according to value.
 student={
     "name":'Lucy',
     "subjects":{
@@ -163,15 +181,18 @@ student={
          'bangla':80,
     }
 }
-print(student.items())
-# dict_items([('name', 'Lucy'), ('subjects', {'phy': 45, 'math': 90, 'bangla': 80})])
-print(list(student.items()))
-# [('name', 'Lucy'), ('subjects', {'phy': 45, 'math': 90, 'bangla': 80})]
+print(student.get('name'))
+# Lucy
+# print(student.get('name1'))
+# print(student["name1"])
 
-pairs=list(student.items())
-print(pairs[0])
-# ('name', 'Lucy')
 
-# get(“ key ”):Returns the key according to value.
-    
+#  what is the different between print(student.get('name1')) and print(student["name1"])
+# If print(student.get('name1')) this can not find any value of this key ,it return none.But this can not stop the function.
+# But If print(student["name1"]) this can not find any value of this key,it return error.For this error stop the function.
+# That's why print(student.get('name')) this use.
+
+
+
+
 # update(newDict):Inserts the specified items to the dictionary.
