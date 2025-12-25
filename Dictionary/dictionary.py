@@ -101,10 +101,60 @@
 # # english
 
 
-# Method:
+# # Method:
 
 
-# keys():Returns all keys.
+# # keys():Returns all keys.
+# student={
+#     "name":'Lucy',
+#     "subjects":{
+#         "phy":45,
+#         "math":90,
+#          'bangla':80,
+#     }
+# }
+# print(student.keys())
+# # dict_keys(['name', 'subjects'])
+
+# #  If we need to list the type of these dictionary keys then we do this.
+# print(list(student.keys()))
+# # ['name', 'subjects']
+
+# #  If we need to know the dictionary length.
+# print(len(student))
+# # 2
+# # or
+# print(len(list(student.keys())))
+# # 2
+# print(list(student['subjects'].keys()))
+# # ['phy', 'math', 'bangla']
+
+
+
+# # values():Returns all values.
+# student={
+#     "name":'Lucy',
+#     "subjects":{
+#         "phy":45,
+#         "math":90,
+#          'bangla':80,
+#     }
+# }
+# print(student.values())
+# # dict_values(['Lucy', {'phy': 45, 'math': 90, 'bangla': 80}])
+
+# print(list(student.values()))
+# # ['Lucy', {'phy': 45, 'math': 90, 'bangla': 80}]
+
+# print(len(student.values()))
+# # 2
+
+# # If we need to dictionary to dictionaries nested values.Then we do this.
+# print(list(student['subjects'].values()))
+# # [45, 90, 80]
+
+
+# items(): Returns all (key,value) pairs as tuples.
 student={
     "name":'Lucy',
     "subjects":{
@@ -113,27 +163,8 @@ student={
          'bangla':80,
     }
 }
-print(student.keys())
-# dict_keys(['name', 'subjects'])
-
-#  If we need to list the type of these dictionary keys then we do this.
-print(list(student.keys()))
-# ['name', 'subjects']
-
-#  If we need to know the dictionary length.
-print(len(student))
-# 2
-# or
-print(len(list(student.keys())))
-# 2
-
-
-
-
-
-# values():Returns all values.
-
-# items(): Returns all (key,value) pairs as tuples.
+print(student.items())
+# dict_items([('name', 'Lucy'), ('subjects', {'phy': 45, 'math': 90, 'bangla': 80})])
 
 # get(“ key ”):Returns the key according to value.
     
