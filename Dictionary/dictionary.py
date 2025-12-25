@@ -196,3 +196,21 @@ print(student.get('name'))
 
 
 # update(newDict):Inserts the specified items to the dictionary.
+student={
+    "name":'Lucy',
+    "subjects":{
+        "phy":45,
+        "math":90,
+         'bangla':80,
+    }
+}
+student.update({'city':'Utora'})
+print(student)
+# {'name': 'Lucy', 'subjects': {'phy': 45, 'math': 90, 'bangla': 80}, 'city': 'Utora'}
+# we can also added like new dictionary in the dictionary.
+newDict={"age":15, "class":'9'}
+student.update(newDict)
+print(student)
+# {'name': 'Lucy', 'subjects': {'phy': 45, 'math': 90, 'bangla': 80}, 'city': 'Utora', 'age': 15, 'class': '9'}
+
+# print(student.update({'city':'Utora'})) We can not write  this.
