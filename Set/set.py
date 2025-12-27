@@ -23,8 +23,8 @@ print(type(product))
 # <class 'set'>
 # so  if we need to declare an empty set,then use set function.
 
-# add():
-# add(el)-We can add in set.
+
+# add(el):-We can add in set.
 product1=set()
 product1.add(1)
 product1.add('apple')
@@ -38,3 +38,20 @@ print(product1)
 # product1.add([1,2,'list'])
 # print(product1) # It gives error like cannot use 'list' as a set element (unhashable type: 'list').
 # hashing means where we can't change original value to another value.That means hash is immutable.
+
+# remove(el):
+pro2={1,2,3,'apple','banana'}
+pro2.remove(2)
+print(pro2)
+# {1, 3, 'apple', 'banana'}
+pro2.remove('apple')
+print(pro2) # {1, 'banana', 3}
+
+
+# clear():
+pro3={1,2,3,"Orange",'mango','banana',(1,2,3,'apple')}
+print(len(pro3))
+# 7
+pro3.clear()
+print(len(pro3))
+# 0
