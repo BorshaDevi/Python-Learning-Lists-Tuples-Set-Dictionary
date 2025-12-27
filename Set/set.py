@@ -10,3 +10,16 @@ print(element)
 # see,here remove two 4 and one Hello.And also see,It's unordered.'world','Hello'.fist Hello remove.
 print(type(element))
 # <class 'set'>
+print(len(element)) 
+
+# Empty set
+# when declare like this
+product={}
+print(type(product))
+# <class 'dict'> . This is a dictionary.
+# Then how do we declare an empty set?
+product=set()
+print(type(product))
+# <class 'set'>
+# so  if we need to declare an empty set,then use set function.
+
