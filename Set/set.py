@@ -23,3 +23,18 @@ print(type(product))
 # <class 'set'>
 # so  if we need to declare an empty set,then use set function.
 
+# add():
+# add(el)-We can add in set.
+product1=set()
+product1.add(1)
+product1.add('apple')
+product1.add('2')
+product1.add('banana')
+product1.add((1,2,3,4))
+print(product1)
+# {'2', 1, (1, 2, 3, 4), 'apple', 'banana'}
+
+# if I try to add list and dictionary in the set
+# product1.add([1,2,'list'])
+# print(product1) # It gives error like cannot use 'list' as a set element (unhashable type: 'list').
+# hashing means where we can't change original value to another value.That means hash is immutable.
