@@ -69,3 +69,11 @@ print(a.union(b))
 # {1, 2, 3, 4, 5}
 print(a|b)
 # {1, 2, 3, 4, 5}
+
+# intersection():Combines common values and returns new.
+a={2,3,5}
+b={1,3,4}
+print(a&b)
+# {3}
+print(a.intersection(b))
+# {3}
