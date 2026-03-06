@@ -17,19 +17,19 @@
 <h2>Website</h2>
 <a href='https://www.python.org/doc/'>Python Documentation</a>
 <h1>🚀PDF File for Interview Practice</h1>
-<!-- <p>This document helps beginners understand fundamental Python concepts with clear explanations and practical code examples.  
-It shows how variables are declared, how different data types work, how strings are manipulated, and how conditional statements control program flow. </p>
+<p>This document helps beginners understand Python data structures such as lists, tuples, sets, and dictionaries with clear explanations and practical examples. It demonstrates how these structures store, organize, and manage data efficiently in Python programs. </p>
 <h6><b>:bulb:What You Will Learn</b></h6>
 <ul>
   <li>How to create and use variables.</li>
   <li>Difference between int, float, string, and boolean.</li>
   <li>How to use if-else conditions.</li>
   <li>Basic real-world coding examples.</li>
-</ul> -->
+</ul>
 <b><a href='https://drive.google.com/file/d/1KKHZvgz1qFV9AMG3-pls2ox2WCCFK33P/view?usp=sharing'>PDF File</a></b>
 <hr></hr>
 <p>Building Dreams With Code.</p>
 ---------------------------------
 <p>Happy coding journey...😊</p>
+
 
 
