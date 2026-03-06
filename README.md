@@ -9,6 +9,7 @@
 <li><a href='https://github.com/BorshaDevi/Python-Learning-Lists-Tuples-Set-Dictionary/tree/main/practice'>Practice Problems</a></li> 
 </ul>
 <h1>🌩️About</h1>
+<p>A beginner-friendly Python learning repository covering Lists, Tuples, Sets, and Dictionaries with concepts, examples, and practice problems.</p>
 <h1>📌Projects</h1>
 <p>Project is coming soon.....:!:</p>
 <h1>📖Resources</h1>
@@ -30,6 +31,7 @@
 <p>Building Dreams With Code.</p>
 ---------------------------------
 <p>Happy coding journey...😊</p>
+
 
 
 
