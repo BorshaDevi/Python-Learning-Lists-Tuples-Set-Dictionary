@@ -20,16 +20,17 @@
 <p>This document helps beginners understand Python data structures such as lists, tuples, sets, and dictionaries with clear explanations and practical examples. It demonstrates how these structures store, organize, and manage data efficiently in Python programs. </p>
 <h6><b>:bulb:What You Will Learn</b></h6>
 <ul>
-  <li>How to create and use variables.</li>
-  <li>Difference between int, float, string, and boolean.</li>
-  <li>How to use if-else conditions.</li>
-  <li>Basic real-world coding examples.</li>
+  <li>How to create and use lists, tuples, sets, and dictionaries.</li>
+  <li>Key differences between mutable and immutable data structures.</li>
+  <li>Common operations like adding, removing, and accessing elements.</li>
+  <li>Practical coding examples to strengthen your understanding.</li>
 </ul>
 <b><a href='https://drive.google.com/file/d/1KKHZvgz1qFV9AMG3-pls2ox2WCCFK33P/view?usp=sharing'>PDF File</a></b>
 <hr></hr>
 <p>Building Dreams With Code.</p>
 ---------------------------------
 <p>Happy coding journey...😊</p>
+
 
 
 
